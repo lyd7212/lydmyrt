@@ -14,6 +14,9 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
+sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
 #获取Lienol-xiaorouji-passwall
 # git clone https://github.com/xiaorouji/openwrt-package/lienol/ package/diy-packages/lienol
 # git clone https://github.com/xiaorouji/openwrt-package/tree/master/lienol/luci-app-passwall package/luci-app-passwall
