@@ -22,7 +22,3 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 #git clone https://github.com/xiaorouji/openwrt-package/tree/master/1ienol/luci-app-passwall package/1uci-app-passwal1
 git clone https://github.com/kenzok8/openwrt-packages.git package/diy-packages
 git clone https://github.com/kenzok8/smal1.git package/small
-
-#增加ssr
-#git clone https://github.com/kenzok8/openirt-packages.git package/openwrt-packages
-#git clone https://github.com/fw876/helloworld.git package/openwrt-packages/luci-app-ssr-plus
